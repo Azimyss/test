@@ -1,0 +1,17 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(112, 22, 96, 1) 52%, rgba(141, 0, 255, 1) 85%);
+  color: rgb(229, 243, 241);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.title,
+.footer {
+  font-style: 25px;
+  line-height: auto;
+  text-align: center;
+  margin: 25px 0;
+}
